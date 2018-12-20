@@ -1,0 +1,19 @@
+{
+  "name": "exoplanet-api",
+  "version": "1.0.0",
+  "description": "Final week of December Exoplanet project",
+  "main": "api.js",
+  "scripts": {
+    "start": "nodemon api.js"
+  },
+  "author": "Ross Savill",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
