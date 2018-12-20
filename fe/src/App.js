@@ -21,26 +21,16 @@ exoplanetList() {
 
   render() {
     const { exoplanets } = this.state
-    // const exoplanets = this.state.exoplanet.map((pl_name, i) => (
        if (exoplanets.length) {
         return (
-              console.log(exoplanets[1].pl_name)
+          <h1>Exoplanets</h1>,
+              <p>Planet Name: {exoplanets[7].pl_name}</p>
+              
         )
       }
       else {
         return <h1>loading</h1>;
       }
-      return (
-        <div>
-          <h1>Exoplanets</h1>
-          {/* { exoplanets.length > 0 ? console.log(exoplanets[1].pl_name) : <h1> Loading...</h1> } */}
-
-          {/* {console.log(exoplanets[1].)} */}
-            
-            {/* <p>{this.state.exoplanets.pl_name}</p> */}
-            {/* <span> { exoplanets.pl_name }</span> */}
-          </div>
-        )
   }
 }
 
